@@ -42,14 +42,14 @@ In particular the .rodata required by the bluetooth stack seems huge. I may
 need to investigate, but I prefer to use it as a black box. Maybe there is a
 configuration option to reduce the requirements.  
 
-'''
+```
 Memory region         Used Size  Region Size  %age Used
            FLASH:      517168 B      2032 KB     24.85%
 FLASH_PERSISTENT:          0 GB        16 KB      0.00%
              RAM:       35460 B       256 KB     13.53%
        SCRATCH_X:          0 GB         4 KB      0.00%
        SCRATCH_Y:          0 GB         4 KB      0.00%
-'''
+```
 ## Warning
 
 I have tested this code, but not every edge case. I use the android serial
